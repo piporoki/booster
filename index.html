@@ -1,28 +1,28 @@
-<!DOCTYPE>
+<!DOCTYPE >
 <html lang="ja">
 
 <head>
     <meta charset="utf-8">
-    <title>作成途中</title>
+    <title>php課題16</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <h1>PSO2 TBT専用フォーム</h1>
-    <form method="post" action="mail_confirm.php">
+    <h1>お問い合わせフォーム</h1>
+    <form method="post" action="mail_conform.php">
         <!-- [method]はデータの送信手段、[action]は送信先のファイル名 -->
         <div>
             <label>名前</label>
             <br>
-            <input type="text" class="text" size="35" placeholder="ぴぽ★ろき♪" name="name" >
+            <input type="text" class="text" size="35" placeholder="山田太郎" name="name" >
             <!-- name="○○"(箱の名前)は[label]の名前にするのが分かりやすい -->
         </div>
 
         <div>
             <label>メールアドレス</label>
             <br>
-            <input type="text" class="text" size="35" placeholder="pipo69@pso2.com" name="mail">
+            <input type="text" class="text" size="35" placeholder="yamada@***.jp" name="mail">
             <!-- type(意味)→文字、class(役割)→テキストボックス、文字サイズ→35、ファイル名→"mail" -->
         </div>
 
@@ -42,7 +42,7 @@
         <div>
             <lavel>コメント</lavel>
             <br>
-            <textarea cols="35" rows="7" placeholder="ぴぽぴぽ...ぴぽぽぽーん！" name="comments"></textarea>
+            <textarea cols="35" rows="7" name="comments"></textarea>
         </div>
 
         <div>
@@ -53,3 +53,6 @@
 
 </body>
 </html>
+
+
+
